@@ -24,14 +24,24 @@ namespace Prueba2
             behaviorMap1.Add(panel3, new GazeAwareBehavior(OnGaze));
             behaviorMap1.Add(panel4, new GazeAwareBehavior(OnGaze));
             behaviorMap1.Add(panel5, new GazeAwareBehavior(OnGaze));
+            behaviorMap1.Add(panel6, new GazeAwareBehavior(OnGaze));
+            behaviorMap1.Add(panel7, new GazeAwareBehavior(OnGaze));
+            behaviorMap1.Add(panel8, new GazeAwareBehavior(OnGaze));
+            behaviorMap1.Add(panel9, new GazeAwareBehavior(OnGaze));
         }
 
         private void OnGaze(object sender, GazeAwareEventArgs e)
         {
-            var panel = sender as Panel;
+            var panel = sender as Direccion;
             if (panel != null)
             {
                 panel.BackColor = e.HasGaze ? Color.Yellow : Color.Black;
+                if (e.HasGaze)
+                {
+                    txtHorizontal.Text = panel.Horizontal.ToString();
+                    txtVertical.Text = panel.Vertical.ToString();
+
+                }
             }
         }
     }
