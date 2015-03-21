@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalGazeDataStream", "MinimalSamples\MinimalGazeDataStream\MinimalGazeDataStream.csproj", "{58F6D103-1290-4555-B7BA-BE18FE782D72}"
 EndProject
@@ -32,6 +32,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserPresenceWpf", "WpfSamples\UserPresenceWpf\UserPresenceWpf.csproj", "{9D9981BA-84AB-496E-AB7F-152A9C815942}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalConfigurationTool", "MinimalConfigurationTool\MinimalConfigurationTool.csproj", "{5177B831-0F8C-4F3F-A1F7-1209DD471BDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hackspace", "Hackspace", "{A6F42B87-5D34-4A23-8E4F-D0E528989209}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prueba1", "Prueba1\Prueba1.csproj", "{81AB6BA7-A108-4107-BBC8-8071CAB63A46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prueba2", "Prueba2\Prueba2.csproj", "{77C72E8E-BE9B-43B4-8A51-F121D77186DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -186,6 +192,26 @@ Global
 		{5177B831-0F8C-4F3F-A1F7-1209DD471BDA}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{5177B831-0F8C-4F3F-A1F7-1209DD471BDA}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{5177B831-0F8C-4F3F-A1F7-1209DD471BDA}.Release|x86.ActiveCfg = Release|Any CPU
+		{81AB6BA7-A108-4107-BBC8-8071CAB63A46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81AB6BA7-A108-4107-BBC8-8071CAB63A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81AB6BA7-A108-4107-BBC8-8071CAB63A46}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{81AB6BA7-A108-4107-BBC8-8071CAB63A46}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{81AB6BA7-A108-4107-BBC8-8071CAB63A46}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{81AB6BA7-A108-4107-BBC8-8071CAB63A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81AB6BA7-A108-4107-BBC8-8071CAB63A46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81AB6BA7-A108-4107-BBC8-8071CAB63A46}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{81AB6BA7-A108-4107-BBC8-8071CAB63A46}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{81AB6BA7-A108-4107-BBC8-8071CAB63A46}.Release|x86.ActiveCfg = Release|Any CPU
+		{77C72E8E-BE9B-43B4-8A51-F121D77186DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77C72E8E-BE9B-43B4-8A51-F121D77186DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77C72E8E-BE9B-43B4-8A51-F121D77186DD}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{77C72E8E-BE9B-43B4-8A51-F121D77186DD}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{77C72E8E-BE9B-43B4-8A51-F121D77186DD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{77C72E8E-BE9B-43B4-8A51-F121D77186DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77C72E8E-BE9B-43B4-8A51-F121D77186DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77C72E8E-BE9B-43B4-8A51-F121D77186DD}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{77C72E8E-BE9B-43B4-8A51-F121D77186DD}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{77C72E8E-BE9B-43B4-8A51-F121D77186DD}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -202,5 +228,7 @@ Global
 		{A01888FC-1A92-4F1F-9C75-ECE56C8FB076} = {42A78B16-3781-4C51-A77F-0866C022CDB7}
 		{9D9981BA-84AB-496E-AB7F-152A9C815942} = {100340A2-53EF-485F-BBC7-98217EFFCB61}
 		{5177B831-0F8C-4F3F-A1F7-1209DD471BDA} = {42A78B16-3781-4C51-A77F-0866C022CDB7}
+		{81AB6BA7-A108-4107-BBC8-8071CAB63A46} = {A6F42B87-5D34-4A23-8E4F-D0E528989209}
+		{77C72E8E-BE9B-43B4-8A51-F121D77186DD} = {A6F42B87-5D34-4A23-8E4F-D0E528989209}
 	EndGlobalSection
 EndGlobal
