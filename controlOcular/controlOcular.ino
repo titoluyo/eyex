@@ -15,7 +15,7 @@ Servo myservoMu;
 int posMu = 90;
 int incMu = 0;
 Servo myservoMa;
-int posMa = 90;
+int posMa = 120;
 int incMa = 0;
 
 void setup() {
@@ -118,8 +118,8 @@ void loop() {
       if(posMa < 0) {
         posMa = 0;
       }
-      if(posMa > 180) {
-        posMa = 180;
+      if(posMa > 125) {
+        posMa = 125;
       }
       myservoMa.write(posMa);
       delay(15);      
