@@ -9,7 +9,7 @@ Servo myservo;
 int pos = 90;
 int inc = 0;
 Servo myservoV;
-int posV = 90;
+int posV = 89;
 int incV = 0;
 Servo myservoMu;
 int posMu = 90;
@@ -72,7 +72,15 @@ void loop() {
 
 
   }
-      //horizontal
+  Serial.print(pos);
+  Serial.print(",");
+  Serial.print(posV);
+  Serial.print(",");
+  Serial.print(posMu);
+  Serial.print(",");
+  Serial.print(posMa);
+  Serial.println("+");
+  //horizontal
       pos = pos - inc;
       if(pos < 0) {
         pos = 0;
@@ -84,12 +92,12 @@ void loop() {
       delay(15);
       
       //vertical
-      posV = posV + incV;
+      posV = posV - incV;
       if(posV < 0) {
         posV = 0;
       }
-      if(posV > 180) {
-        posV = 180;
+      if(posV > 87) {
+        posV = 87;
       }
       myservoV.write(posV);
       delay(15);
@@ -99,14 +107,14 @@ void loop() {
       if(posMu < 0) {
         posMu = 0;
       }
-      if(posMu > 180) {
-        posMu = 180;
+      if(posMu > 167) {
+        posMu = 167;
       }
       myservoMu.write(posMu);
       delay(15);
 
       //mano
-      posMa = posMa - incMa;
+      posMa = posMa + incMa;
       if(posMa < 0) {
         posMa = 0;
       }
