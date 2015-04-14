@@ -103,7 +103,7 @@ void loop() {
       delay(15);
       
       //muneca
-      posMu = posMu - incMu;
+      posMu = posMu + incMu;
       if(posMu < 0) {
         posMu = 0;
       }
